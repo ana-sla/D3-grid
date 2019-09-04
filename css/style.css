@@ -6,12 +6,13 @@ body{
                          'footer footer footer footer';
 
     grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-template-rows: 8vh 25vh 60vw 10vw;                    
+    grid-template-rows: 8vh 65vh 60vw 10vw;                    
     margin: 0;
     font-family: 'Permanent Marker', cursive;
     cursor: url("../images/kunai.png"), default;
 
 }
+
 
 
 header{
@@ -50,6 +51,27 @@ section{
 
 aside{
     grid-area: aside;
+    background-color: #282a25f0;
+}
+
+aside p{
+    font-family: 'Courier New', Courier, monospace;
+}
+aside h2{
+    text-align: center;
+
+}
+
+aside h2, aside p{
+    color: white;
+    padding: 0 15px;
+}
+
+aside ul li{
+    color: white;
+}
+aside ul{
+    list-style-image: url("../images/icon.png");
 }
 
 footer{
