@@ -1,3 +1,8 @@
+body::-webkit-scrollbar{
+    width: 0px; /*remover o scrollbar space*/
+    background: transparent; /*para deixaer ela invisivel*/
+}
+
 body{
     display: grid;
     grid-template-areas: 'nav nav nav nav'
@@ -26,6 +31,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+
 }
 
 nav > img {
