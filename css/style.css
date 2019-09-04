@@ -9,3 +9,23 @@ body{
     grid-template-rows: 8vh 25vh 60vw 10vw;                    
     margin: 0;
 }
+
+nav{
+    grid-area: nav;
+}
+
+header{
+    grid-area: header;
+}
+
+section{
+    grid-area: section;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}
