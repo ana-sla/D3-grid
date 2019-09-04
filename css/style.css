@@ -13,6 +13,12 @@ body{
 
 }
 
+
+header{
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    grid-area: header;
+}
 nav{
     grid-area: nav;
     background-color: #373b31;
