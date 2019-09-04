@@ -55,6 +55,23 @@ section{
     grid-area: section;
 }
 
+section input:focus{
+    background-color: black;
+}
+
+section input::placeholder{
+     color: #bb2127;
+}
+
+section h2{
+    text-align: center;
+}
+
+section div{
+    display: flex;
+    justify-content: center;
+}
+
 aside{
     grid-area: aside;
     background-color: #282a25f0;
